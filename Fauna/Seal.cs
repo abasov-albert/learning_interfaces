@@ -1,20 +1,20 @@
 ﻿namespace ConsoleApp1.Fauna
 {
-    public class Lion : Animal
+    public class Seal : Animal
     {
         public override string talk()
         {
-            return "roar";
+            return "ah-ah-ah";
         }
 
         public override string food()
         {
-            return "meat";
+            return "fish";
         }
 
         public override string run()
         {
-            return "run fast";
+            return "crawl";
         }
     }
 }

@@ -2,21 +2,12 @@
 
 namespace ConsoleApp1.Fauna
 {
-    public class Animal : ITalkable, IEat, IMovable
+    public abstract class Animal : ITalkable, IEat, IMovable
     {
-        public string talk()
-        {
-            throw new System.NotImplementedException();
-        }
+        public abstract string talk();
 
-        public string food()
-        {
-            throw new System.NotImplementedException();
-        }
+        public abstract string food();
 
-        public string run()
-        {
-            throw new System.NotImplementedException();
-        }
+        public abstract string run();
     }
 }
